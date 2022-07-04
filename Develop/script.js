@@ -137,83 +137,67 @@ document.getElementById("btn1").addEventListener("click", function ()
         var user = document.getElementById("9am").value ;
         //localStorage["user"] = user ;
         localStorage.setItem("9am", user) ;
-        console.log("its working")
-    } , false);
+    } , true);
 
 // block 2
 
-document.getElementById("save").addEventListener("click", function ()
+document.getElementById("btn2").addEventListener("click", function ()
     {
-        var user = document.getElementById("user").value ;
+        var user = document.getElementById('10am').value ;
         //localStorage["user"] = user ;
-        localStorage.setItem("user", user) ;
-        alert("gmail id saved") ;
-        console.log("gmail id saved")
-    } , false);
+        localStorage.setItem("10am", user) ;
+    } , true);
 
 // block 3
 
-document.getElementById("save").addEventListener("click", function ()
+document.getElementById("btn3").addEventListener("click", function ()
     {
-        var user = document.getElementById("user").value ;
+        var user = document.getElementById("11am").value ;
         //localStorage["user"] = user ;
-        localStorage.setItem("user", user) ;
-        alert("gmail id saved") ;
-        console.log("gmail id saved")
-    } , false);
+        localStorage.setItem("11am", user) ;
+    } , true);
 //block 4
-document.getElementById("save").addEventListener("click", function ()
-    {
-        var user = document.getElementById("user").value ;
-        //localStorage["user"] = user ;
-        localStorage.setItem("user", user) ;
-        alert("gmail id saved") ;
-        console.log("gmail id saved")
-    } , false);
 //block 5
-    document.getElementById("save").addEventListener("click", function ()
-    {
-        var user = document.getElementById("user").value ;
-        //localStorage["user"] = user ;
-        localStorage.setItem("user", user) ;
-        alert("gmail id saved") ;
-        console.log("gmail id saved")
-    } , false);
+document.getElementById("btn4").addEventListener("click", function ()
+{
+    var user = document.getElementById("12pm").value ;
+    //localStorage["user"] = user ;
+    localStorage.setItem("12pm", user) ;
+} , true);
 //bock 6
-    document.getElementById("save").addEventListener("click", function ()
-    {
-        var user = document.getElementById("user").value ;
-        //localStorage["user"] = user ;
-        localStorage.setItem("user", user) ;
-        alert("gmail id saved") ;
-        console.log("gmail id saved")
-    } , false);
+document.getElementById("btn5").addEventListener("click", function ()
+{
+    var user = document.getElementById("1pm").value ;
+    
+    localStorage.setItem("1pm", user) ;
+    
+} , true);
 //block 7
-    document.getElementById("save").addEventListener("click", function ()
-    {
-        var user = document.getElementById("user").value ;
-        //localStorage["user"] = user ;
-        localStorage.setItem("user", user) ;
-        alert("gmail id saved") ;
-        console.log("gmail id saved")
-    } , false);
+document.getElementById("btn6").addEventListener("click", function ()
+{
+    var user = document.getElementById("2pm").value ;
+    
+    localStorage.setItem("2pm", user) ;
+} , true);
 //block 8
-    document.getElementById("save").addEventListener("click", function ()
-    {
-        var user = document.getElementById("user").value ;
-        //localStorage["user"] = user ;
-        localStorage.setItem("user", user) ;
-        alert("gmail id saved") ;
-        console.log("gmail id saved")
-    } , false);
+document.getElementById("btn7").addEventListener("click", function ()
+{
+    var user = document.getElementById("3pm").value ;
+    
+    localStorage.setItem("3pm", user) ;
+} , true);
 //block 9 
-    document.getElementById("save").addEventListener("click", function ()
-    {
-        var user = document.getElementById("user").value ;
-        //localStorage["user"] = user ;
-        localStorage.setItem("user", user) ;
-        alert("gmail id saved") ;
-        console.log("gmail id saved")
-    } , false);
+document.getElementById("btn8").addEventListener("click", function ()
+{
+    var user = document.getElementById("4pm").value ;
+    
+    localStorage.setItem("4pm", user) ;
+} , true);
+document.getElementById("btn9").addEventListener("click", function ()
+{
+    var user = document.getElementById("5pm").value ;
+    
+    localStorage.setItem("11am", user) ;
+} , true);
 
 
