@@ -79,27 +79,7 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
-/* .container {
-  display: inline-block ;
-  row-gap: 20px;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
-  width: 100%;
 
-}
-#table {
-  display: block;
-  background-color: #333;
-  color: #d3d3d3;
-  width: 100%;
-  height: 25%;
-  border: black;
-  border-radius: 5px;
-  padding: 50px;
-  border-spacing: 20px;
-  margin: 25px;
-} */
 
 .wrapper {
   display: grid;
@@ -107,6 +87,7 @@ textarea{
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
+  margin-left: 145px;
 
 }
 
