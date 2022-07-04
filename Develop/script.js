@@ -3,7 +3,7 @@ console.log("its working")
 // time to code the timer 
 // program to display the date
 // get local machine date time
-setInterval(timeDate()  ,1000);
+setInterval(timeDate()  ,30000);
     function timeDate(){
     const currentDate = new Date();
 
@@ -128,5 +128,92 @@ setInterval(timeDate()  ,1000);
 }
 setInterval(timeDate);
 
+// local storage functions 
+
+// block 1
+
+document.getElementById("btn1").addEventListener("click", function ()
+    {
+        var user = document.getElementById("9am").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("9am", user) ;
+        console.log("its working")
+    } , false);
+
+// block 2
+
+document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        alert("gmail id saved") ;
+        console.log("gmail id saved")
+    } , false);
+
+// block 3
+
+document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        alert("gmail id saved") ;
+        console.log("gmail id saved")
+    } , false);
+//block 4
+document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        alert("gmail id saved") ;
+        console.log("gmail id saved")
+    } , false);
+//block 5
+    document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        alert("gmail id saved") ;
+        console.log("gmail id saved")
+    } , false);
+//bock 6
+    document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        alert("gmail id saved") ;
+        console.log("gmail id saved")
+    } , false);
+//block 7
+    document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        alert("gmail id saved") ;
+        console.log("gmail id saved")
+    } , false);
+//block 8
+    document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        alert("gmail id saved") ;
+        console.log("gmail id saved")
+    } , false);
+//block 9 
+    document.getElementById("save").addEventListener("click", function ()
+    {
+        var user = document.getElementById("user").value ;
+        //localStorage["user"] = user ;
+        localStorage.setItem("user", user) ;
+        alert("gmail id saved") ;
+        console.log("gmail id saved")
+    } , false);
 
 
