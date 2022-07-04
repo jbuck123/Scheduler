@@ -35,90 +35,90 @@ setInterval(timeDate()  ,1000);
         var four = document.getElementById("4pm");
         var five = document.getElementById("5pm");
 
-    if(currentHour < nine ) {
+    if(currentHour < 9 ) {
         document.getElementById('9am').className = 'future';
     }
-        else if ( currentHour === nine) {
+        else if ( currentHour === 9 ) {
             document.getElementById('9am').className = 'present'
         }
     else  {
         document.getElementById('9am').className = 'past'
     }
     // new section
-    if(currentHour < ten ) {
+    if(currentHour < 10 ) {
         document.getElementById('10am').className = 'future';
     }
-        else if ( currentHour === ten) {
+        else if ( currentHour === 10) {
             document.getElementById('10am').className = 'present'
         }
     else  {
         document.getElementById('10am').className = 'past'
     }
     //new section
-    if(currentHour < eleven ) {
+    if(currentHour < 11 ) {
         document.getElementById('11am').className = 'future';
     }
-        else if ( currentHour === eleven) {
+        else if ( currentHour === 11) {
             document.getElementById('11am').className = 'present'
         }
     else  {
         document.getElementById('11am').className = 'past'
     }
     //new section
-    if(currentHour < twelve ) {
+    if(currentHour < 12 ) {
         document.getElementById('12pm').className = 'future';
     }
-        else if ( currentHour === twelve) {
+        else if ( currentHour === 12) {
             document.getElementById('12pm').className = 'present'
         }
     else  {
         document.getElementById('12pm').className = 'past'
     }
     //new section
-    if(currentHour < one ) {
+    if(currentHour < 13 ) {
         document.getElementById('1pm').className = 'future';
     }
-        else if ( currentHour === one) {
+        else if ( currentHour === 13) {
             document.getElementById('1pm').className = 'present'
         }
     else  {
         document.getElementById('1pm').className = 'past'
     }
     // new section
-    if(currentHour < two ) {
+    if(currentHour < 14 ) {
         document.getElementById('2pm').className = 'future';
     }
-        else if ( currentHour === two) {
+        else if ( currentHour === 14) {
             document.getElementById('9am').className = 'present'
         }
     else  {
         document.getElementById('2pm').className = 'past'
     }
     //new section
-    if(currentHour < three) {
+    if(currentHour < 15) {
         document.getElementById('3pm').className = 'future';
     }
-        else if ( currentHour === three) {
+        else if ( currentHour === 15) {
             document.getElementById('3pm').className = 'present'
         }
     else  {
         document.getElementById('3pm').className = 'past'
     }
     //new section
-    if(currentHour < four ) {
+    if(currentHour < 15 ) {
         document.getElementById('4pm').className = 'future';
     }
-        else if ( currentHour === four) {
+        else if ( currentHour === 15) {
             document.getElementById('4pm').className = 'present'
         }
     else  {
         document.getElementById('4pm').className = 'past'
     }
     //new section
-    if(currentHour < five ) {
+    if(currentHour < 16 ) {
         document.getElementById('5pm').className = 'future';
     }
-        else if ( currentHour === five) {
+        else if ( currentHour === 16) {
             document.getElementById('5pm').className = 'present'
         }
     else  {
@@ -129,12 +129,4 @@ setInterval(timeDate()  ,1000);
 setInterval(timeDate);
 
 
-//nortons idea 
 
-
-// for (i= 0; i> 8 i++ )
-
-// if time < asdf set nine = var class = element 
-// else if == set time = color 
-// else set = color   
-// )
