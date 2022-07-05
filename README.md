@@ -17,3 +17,6 @@ THEN the saved events persist
 ## Website Demo
 
 ![scheduler demo](./images/Screenshot.png)
+
+## link to website 
+https://jbuck123.github.io/Scheduler/
