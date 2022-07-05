@@ -134,9 +134,11 @@ setInterval(timeDate);
 
 document.getElementById("btn1").addEventListener("click", function ()
     {
-        var user = document.getElementById("9am").value ;
+        var dataObject = document.getElementById("9am").value ;
         //localStorage["user"] = user ;
-        localStorage.setItem("9am", user) ;
+        localStorage.setItem("9am", JSON.stringify(dataObject));
+        var retrievedObject = localStorage.getItem('dataObject');
+        console.log('retrieved data Object: ', JSON.parse(retrievedObject));
     } , true);
 
 // block 2
@@ -196,8 +198,10 @@ document.getElementById("btn8").addEventListener("click", function ()
 document.getElementById("btn9").addEventListener("click", function ()
 {
     var user = document.getElementById("5pm").value ;
-    
-    localStorage.setItem("11am", user) ;
+
+    localStorage.setItem("5pm", user) ;
 } , true);
+
+
 
 
